@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 700px;
+    margin-top: 70px;
+}
+
+.instagram-phone {
+    width: 100%;
+    margin: 1rem;
+}
+
+.phone {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+.phone1 {
+    position: relative;
+    top: -250px;
+    left: 110px;
+    border: 5px solid silver;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+.instagram-continue {
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.one {
+    flex-direction: column;
+}
+
+.two {
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    width: 300px;
+    padding: 0.7rem;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 2rem;
+    padding: 0.5rem;
+    background: rgb(69, 137, 201);
+    color: white;
+    border: none;
+    text-shadow: 0 0 2px white;
+}
+
+hr {
+    width: 300px;
+    margin-left: 1rem;
+}
+
+span {
+    margin: 1rem 1rem 0;
+    padding: .1rem;
+    display: flex; 
+    justify-content: center;
+}
+
+i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+i input {
+    margin-left: .5rem;
+    color: rgb(19, 1, 119);
+    font-weight: bold;
+}
+
+.face, .senha, .cadastrar {
+    border: none;
+    background: transparent;
+}
+
+.senha {
+    margin: .5rem 1rem 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastrar {
+    margin: 1rem 0 0 -0.5rem;
+    color: rgb(19, 1, 119);
+    font-weight: bold;
+}
+
+.instagram-logo {
+    width: 150px;
+}
+
+.facebook-logo {
+    width: 30px;
+}
+
+.social {
+    width: 150px;
+}
+
+.baixar {
+    margin: 1rem 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baixar-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.baixar-img img {
+    margin: 1rem;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+}
